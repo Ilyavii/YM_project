@@ -1,0 +1,39 @@
+/* static/static.css */
+
+/* Style the table */
+.table-responsive {
+    margin: 20px 0;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Style the header row */
+.table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Style alternating rows */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style selected rows */
+.table tbody tr.bold-blue {
+    background-color: #add8e6;
+}
+
+/* Style the download button */
+#downloadBtn {
+    margin-top: 20px;
+}
